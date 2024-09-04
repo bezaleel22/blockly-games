@@ -309,11 +309,19 @@ self.addEventListener("activate", (e) => {
   );
 });
 
+// self.addEventListener("fetch", (event) => {
+//   event.respondWith(
+//     caches
+//       .open(cacheName)
+//       .then((cache) => cache.match(event.request))
+//       .catch(() => fetch(event.request))
+//   );
+// });
+
 self.addEventListener("fetch", (event) => {
   event.respondWith(
-    caches
-      .open(cacheName)
-      .then((cache) => cache.match(event.request))
-      .catch(() => fetch(event.request))
+    fetch(event.request).catch(() =>
+      caches.open(cacheName).then((cache) => cache.match(event.request))
+    )
   );
 });
