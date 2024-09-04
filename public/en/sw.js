@@ -5,6 +5,7 @@ const cacheName = `blockly-v${version}`;
 
 const cacheAssets = [
   "/",
+  "/en/index.html",
   "/en/index.html?lang=en",
   "/en/maze.html?lang=en",
   "/en/third-party/JS-Interpreter/compressed.js",

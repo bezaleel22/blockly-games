@@ -8,7 +8,7 @@ app.use(staticPlugin({
 }))
 
 app.get('/', async () => {
-  return Bun.file('./public/index.html?lang=en')
+  return Bun.file('./public/index.html')
 })
 
 app.listen(3000, () => {
