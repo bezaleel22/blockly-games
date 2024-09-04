@@ -1,0 +1,11 @@
+services:
+  blockly:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # image: blockly:latest
+    container_name: blockly
+    restart: always
+    ports:
+      - "3000:3000"
+    
