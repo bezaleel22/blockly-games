@@ -1,8 +1,8 @@
 {
-  "name": "Blockly",
-  "short_name": "Blockly 4 Android",
+  "name": "Blockly 4 Android",
+  "short_name": "Blockly",
   "description": "A visual programming editor for Android devices.",
-  "start_url": "https://blockly.beznet.org/en/index.html",
+  "start_url": "../index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
