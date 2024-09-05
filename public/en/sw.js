@@ -6,6 +6,35 @@ const cacheName = `blockly-v${version}`;
 const cacheAssets = [
   "/",
   "/en/index.html",
+  "/favicon.png",
+  "/icon/ms-icon-310x310.png",
+  "/icon/ms-icon-70x70.png",
+  "/icon/android-icon-72x72.png",
+  "/icon/apple-icon-76x76.png",
+  "/icon/apple-icon.png",
+  "/icon/browserconfig.xml",
+  "/icon/android-icon-144x144.png",
+  "/android-icon-144x144.png",
+  "/icon/android-icon-36x36.png",
+  "/icon/apple-icon-60x60.png",
+  "/icon/apple-icon-72x72.png",
+  "/icon/apple-icon-144x144.png",
+  "/icon/apple-icon-180x180.png",
+  "/icon/favicon.ico",
+  "/icon/favicon-96x96.png",
+  "/icon/favicon-16x16.png",
+  "/icon/android-icon-192x192.png",
+  "/icon/apple-icon-precomposed.png",
+  "/icon/favicon-32x32.png",
+  "/icon/ms-icon-144x144.png",
+  "/icon/apple-icon-120x120.png",
+  "/icon/android-icon-96x96.png",
+  "/icon/apple-icon-57x57.png",
+  "/icon/manifest.json",
+  "/icon/apple-icon-114x114.png",
+  "/icon/apple-icon-152x152.png",
+  "/icon/ms-icon-150x150.png",
+  "/icon/android-icon-48x48.png",
   "/en/index.html?lang=en",
   "/en/maze.html?lang=en",
   "/en/third-party/JS-Interpreter/compressed.js",
@@ -230,7 +259,6 @@ const cacheAssets = [
   "/en/pond/duck/style.css",
   "/en/pond/duck/generated/en/compressed.js",
   "/en/pond/sprites.png",
-  "/en/sw.js",
   "/en/music/rest0.125.png",
   "/en/music/rest1.png",
   "/en/music/rest0.03125.png",
@@ -272,8 +300,6 @@ const cacheAssets = [
   "/en/common/prettify.css",
   "/en/common/boot.js",
 ];
-
-
 
 self.addEventListener("install", (event) => {
   // console.log("Service worker is installed");
