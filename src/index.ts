@@ -11,6 +11,6 @@ app.get('/', async () => {
   return Bun.file('./public/index.html')
 })
 
-app.listen(3001, () => {
+app.listen(3000, () => {
   console.log(`🦊 Elysia is running at http://${app.server?.hostname}:${app.server?.port}`);
 })
